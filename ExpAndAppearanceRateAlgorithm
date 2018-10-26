@@ -32,6 +32,7 @@ Level 61 -> 100: Stage 4 (25%), Stage 5 (75%)
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Exp Distribution:
 
-Stage 1: -When User is between Level 1 & 7 = (int)(((Math.random() + 1) * 10) + (Math.random() * 10)) ==> Gives values between 10 and 28
-         -When User is between Level 8 and 15 = (int)(((Math.random() + 2) * 12) + (Math.random() * 12)) ==> Gives values between 24 and 47
-         -When User
+Stage 1: -When User is between Level 1 & 7 = (int)(((Math.random() + 1) * 11) + (Math.random() * 5.5)) ==> Gives values between 11 and 27
+         -When User is between Level 8 and 15 = (int)(((Math.random() + 2) * 12) + (Math.random() * 6)) ==> Gives values between 24 and 41
+         -When User is between Level 16 and 25 = (int)(((Math.random() + 3) * 13) + (Math.random() * 13)) ==> Gives values between 39 and 64
+Stage 2: -When User is between Level 8 and 15 = (int)(((Math.random() + 2) * 14) + (Math.random() * 14)) ==> Gives values between 28 and 55
