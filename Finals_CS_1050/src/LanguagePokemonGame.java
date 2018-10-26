@@ -39,6 +39,7 @@ public class LanguagePokemonGame extends Application
 		
 		Label lblHealth = new Label("Health:");
 		Label lblEXP = new Label("EXP:");
+		Label lblLevel = new Label("(1)");
 		Label lblHint = new Label("Hint: ");
 		Label lblEnemy = new Label("Enemy Here");
 		
@@ -84,6 +85,7 @@ public class LanguagePokemonGame extends Application
 		opt4.setFont(new Font("System", 32));
 		lblHealth.setFont(new Font("System", 20));
 		lblEXP.setFont(new Font("System", 20));
+		lblLevel.setFont(new Font("System", 14));
 		lblHint.setFont(new Font("System", 40));
 		lblEnemy.setFont(new Font("System", 40));
 		
@@ -93,12 +95,14 @@ public class LanguagePokemonGame extends Application
 		gPane.add(opt2, 1, 0);
 		gPane.add(opt3, 0, 1);
 		gPane.add(opt4, 1, 1);
-		lblPane.getChildren().addAll(lblHealth, lblEXP, lblHint, lblEnemy);
+		lblPane.getChildren().addAll(lblHealth, lblEXP, lblLevel, lblHint, lblEnemy);
 		pbPane.getChildren().addAll(pbHealth, pbEXP);
 		
 		//Translating stuff around
 		lblHealth.setTranslateY(20);
 		lblEXP.setTranslateX(25);
+		lblLevel.setTranslateX(-7);
+		lblLevel.setTranslateY(5);
 		lblHint.setTranslateX(225);
 		lblEnemy.setTranslateX(365);
 		lblEnemy.setTranslateY(-150);
@@ -107,7 +111,8 @@ public class LanguagePokemonGame extends Application
 		vBox.setTranslateY(350);
 		gPane.setTranslateY(350);
 		lblPane.setTranslateY(300);
-		pbPane.setTranslateX(65);
+		lblPane.setTranslateX(10);
+		pbPane.setTranslateX(75);
 		pbPane.setTranslateY(309);
 		
 		pane.getChildren().addAll(vBox, gPane, lblPane, pbPane);
