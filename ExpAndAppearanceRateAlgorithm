@@ -21,7 +21,7 @@ Level: (Exp requirement)
 98 - 580,000
 99 - 590,000
 100 - 600,000
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Appearance Rates:
 Level 1 -> 7 : Stage 1 (100%)
 Level 8 -> 15 : Stage 1 (25%), Stage 2 (74%), Stage 3 (1%)
@@ -29,3 +29,9 @@ Level 16 -> 25: Stage 1 (5%), Stage 2 (50%), Stage 3 (44%), Stage 4 (1%)
 Level 26 -> 40: Stage 2 (5%), Stage 3 (50%), Stage 4 (40%), Stage 5 (5%)
 Level 41 -> 60: Stage 3 (10%), Stage 4 (40%), Stage 5 (50%)
 Level 61 -> 100: Stage 4 (25%), Stage 5 (75%)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Exp Distribution:
+
+Stage 1: -When User is between Level 1 & 7 = (int)(((Math.random() + 1) * 10) + (Math.random() * 10)) ==> Gives values between 10 and 28
+         -When User is between Level 8 and 15 = (int)(((Math.random() + 2) * 12) + (Math.random() * 12)) ==> Gives values between 24 and 47
+         -When User
