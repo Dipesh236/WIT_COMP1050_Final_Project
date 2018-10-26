@@ -101,7 +101,7 @@ public class LanguagePokemonGame extends Application
 		//Translating stuff around
 		lblHealth.setTranslateY(20);
 		lblEXP.setTranslateX(25);
-		lblLevel.setTranslateX(-7.5);
+		lblLevel.setTranslateX(-7);
 		lblLevel.setTranslateY(5);
 		lblHint.setTranslateX(225);
 		lblEnemy.setTranslateX(365);
